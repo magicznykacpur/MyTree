@@ -33,19 +33,19 @@ public class MyTree {
     }
 
     public boolean contains(int value) {
-        BNode current = root;
-
-        while (true) {
-            if (value == current.getValue())
-                return true;
-            else {
-                if (value < current.getValue()) {
-                    current = current.getLeftChild();
-                    if
-                }
-
-            }
-        }
+//        BNode current = root;
+//
+//        while (true) {
+//            if (value == current.getValue())
+//                return true;
+//            else {
+//                if (value < current.getValue()) {
+//                    current = current.getLeftChild();
+//                    if
+//                }
+//
+//            }
+//        }
     }
 
     public boolean isRootSet() {
